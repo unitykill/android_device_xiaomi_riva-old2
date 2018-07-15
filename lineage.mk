@@ -39,9 +39,9 @@ TARGET_VENDOR_PRODUCT_NAME := riva
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="riva" \
     PRODUCT_NAME="riva" \
-    PRIVATE_BUILD_DESC="riva-user 6.0.1 MMB29M V10.2.1.0.MALMIXM release-keys"
+    PRIVATE_BUILD_DESC="riva-user 7.1.2 N2G47H V9.5.6.0.NCKMIFA release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/riva/riva:6.0.1/MMB29M/V10.2.1.0.MALMIXM:user/release-keys
+BUILD_FINGERPRINT := "Xiaomi/riva/riva:7.1.2/N2G47H/V9.5.6.0.NCKMIFA:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2019-01-01

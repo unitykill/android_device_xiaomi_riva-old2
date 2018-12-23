@@ -28,5 +28,8 @@ TARGET_TS_MAKEUP := true
 # Kernel
 TARGET_KERNEL_CONFIG := riva_defconfig
 
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+
 # Inherit the proprietary files
 -include vendor/xiaomi/riva/BoardConfigVendor.mk

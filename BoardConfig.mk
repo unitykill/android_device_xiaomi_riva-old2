@@ -18,7 +18,7 @@
 # inherit from common msm8937-common
 -include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/land
+DEVICE_PATH := device/xiaomi/riva
 
 # Camera
 BOARD_QTI_CAMERA_32BIT_ONLY := true
@@ -26,13 +26,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_TS_MAKEUP := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_land_defconfig
-
-# Libinit
-TARGET_LIBINIT_MSM8937_DEFINES_FILE := $(DEVICE_PATH)/libinit/init_land.cpp
-
-# Libshim
-TARGET_LD_SHIM_LIBS := /vendor/bin/mm-qcamera-daemon|vendor/lib/libshims_camera.so
+TARGET_KERNEL_CONFIG := riva_defconfig
 
 # Inherit the proprietary files
--include vendor/xiaomi/land/BoardConfigVendor.mk
+-include vendor/xiaomi/riva/BoardConfigVendor.mk

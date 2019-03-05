@@ -23,25 +23,25 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from land device
+# Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := Xiaomi
-PRODUCT_DEVICE := land
+PRODUCT_DEVICE := riva
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := lineage_land
+PRODUCT_MODEL := Redmi 5A
+PRODUCT_NAME := lineage_riva
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := land
+TARGET_VENDOR_PRODUCT_NAME := riva
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V10.2.1.0.MALMIXM release-keys"
+    TARGET_DEVICE="riva" \
+    PRODUCT_NAME="riva" \
+    PRIVATE_BUILD_DESC="riva-user 6.0.1 MMB29M V10.2.1.0.MALMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V10.2.1.0.MALMIXM:user/release-keys
-
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.model
+BUILD_FINGERPRINT := Xiaomi/riva/riva:6.0.1/MMB29M/V10.2.1.0.MALMIXM:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.build.security_patch=2017-04-01
+    ro.vendor.build.security_patch=2019-01-01

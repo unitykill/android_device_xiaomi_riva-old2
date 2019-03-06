@@ -20,6 +20,9 @@ DEVICE_PATH := device/xiaomi/riva
 # Inherit proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/riva/riva-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \

@@ -1,4 +1,4 @@
-Linaege Project (c) 2018
+Linaege Project (c) 2018-2019
 
 Device configuration for Xiaomi Redmi 5A  (_riva_)
 =====================================================

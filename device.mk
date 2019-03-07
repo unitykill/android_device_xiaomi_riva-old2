@@ -41,6 +41,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.riva.rc
 
-# Inherit from msm8937-common
-$(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
+# Inherit from msm8917-common
+$(call inherit-product, device/xiaomi/msm8917-common/msm8917.mk)
 

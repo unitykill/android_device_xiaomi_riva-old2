@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# inherit from common msm8937-common
--include device/xiaomi/msm8937-common/BoardConfigCommon.mk
+# inherit from common msm8917-common
+-include device/xiaomi/msm8917-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/riva
 

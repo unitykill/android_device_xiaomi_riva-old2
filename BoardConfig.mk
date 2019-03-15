@@ -27,7 +27,7 @@ TARGET_TS_MAKEUP := true
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := riva_defconfig
+TARGET_KERNEL_CONFIG := riva-perf_defconfig
 
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy

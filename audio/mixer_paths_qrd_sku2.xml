@@ -51,9 +51,9 @@
     <ctl name="TTY Mode" value="Off" />
     <ctl name="HPHL Volume" value="9" />
     <ctl name="HPHR Volume" value="9" />
-    <ctl name="RX1 Digital Volume" value="86" />
-    <ctl name="RX2 Digital Volume" value="86" />
-    <ctl name="RX3 Digital Volume" value="86" />
+    <ctl name="RX1 Digital Volume" value="84" />
+    <ctl name="RX2 Digital Volume" value="84" />
+    <ctl name="RX3 Digital Volume" value="84" />
     <!-- bug279292,chengong.wt,20170720,.modify,pop when dial -->
     <ctl name="IIR1 INP1 Volume" value="53" />
     <ctl name="IIR1 INP2 Volume" value="53" />
